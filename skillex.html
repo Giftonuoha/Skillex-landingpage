@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="skillex.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="skillex.css" />
     <title>SKILLEX</title>
-</head>
-<body>
-    
-</body>
+    <style>
+      .container {
+        margin: 0 auto;
+        display: grid;
+        height: 50vh;
+        width: 80vw;
+        grid-template-columns: 3fr 5fr 1fr 1fr;
+      }
+
+      .tiny,
+      .big {
+        border: 1px solid black;
+      }
+
+      .text {
+        text-align: center;
+        font-size: 3rem;
+        padding-top: 0.7rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="text">Watch.<br />Learn.<br />Grow.</div>
+        <div class="big"><img src="" /></div>
+        <div class="tiny"><img src="" /></div>
+        <div class="tiny"><img src="" /></div>
+      </div>
+    </main>
+  </body>
 </html>
