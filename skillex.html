@@ -5,99 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="skillex.css" />
     <title>SKILLEX</title>
-    <style>
-      .container {
-        margin: 30px auto;
-        display: grid;
-
-        width: 70vw;
-        grid-template-columns: 3fr 2.5fr 1fr 1fr;
-        grid-template-rows: 0.5fr;
-        column-gap: 15px;
-      }
-
-      .tiny,
-      .big,
-      .button {
-        border: 1px solid black;
-        border-radius: 10px;
-      }
-
-      .text {
-        text-align: center;
-        font-size: 3rem;
-        padding-top: 3.5rem;
-      }
-
-      /* #buttons {
-        margin-top: 45px;
-      }
-
-      .button1 {
-        padding: 20px 70px 20px 30px;
-      }
-
-      .button2 {
-        padding: 20px 15px;
-      } */
-
-      .man {
-        background-image: url("images/man-standing.jpg");
-        background-size: cover; /* This property ensures that the background image covers the entire body */
-        background-position: center;
-        background-repeat: no-repeat;
-      }
-
-      .woman {
-        background-image: url("images/woman\ smiling.jpg");
-        background-size: cover; /* This property ensures that the background image covers the entire body */
-        background-position: center;
-        background-repeat: no-repeat;
-      }
-
-      .items {
-        display: flex;
-        justify-content: space-around;
-        color: white;
-        font-size: 24px;
-        margin-top: 245px;
-      }
-
-      .grid2 {
-        display: grid;
-      }
-
-      .button {
-        padding: 20px 70px 20px 30px;
-      }
-
-      .a {
-        background-color: rgb(231, 230, 230);
-        font-size: 16px;
-      }
-
-      .b {
-        font-size: 24px;
-        background-color: rgb(95, 255, 95);
-      }
-    </style>
   </head>
   <body>
-    <main>
-      <div class="container">
-        <div class="grid2">
-          <div class="text">Watch.<br />Learn.<br />Grow.<br /></div>
-          <div class="button a">Find Your Passion</div>
-          <div class="button b">Go</div>
-        </div>
-        <div class="big woman">
-          <div class="items">
-            <div>Cooking <br />Course</div>
-            <div>100 <br />Topics</div>
+    <main class="container">
+      <div class="wrapper">
+        <div class="content">
+          <div class="container1">
+            <div class="grid2">
+              <div class="text">Watch.<br />Learn.<br />Grow.<br /></div>
+              <!-- <div class="button a">Find Your Passion</div>
+              <div class="button b">Go</div> -->
+              <div class="buttons">
+                <input type="text" placeholder="Find Your Passion" />
+                <button>Go</button>
+              </div>
+            </div>
+            <div class="big woman">
+              <div class="cooking">
+                <div>Cooking <br />Course</div>
+                <div>100 <br />Topics</div>
+              </div>
+            </div>
+            <div class="tiny man">
+              <div class="items">
+                <div class="diagonal">Writing</div>
+                <span></span>
+              </div>
+            </div>
+            <div class="tiny woman1">
+              <div class="items">
+                <div class="diagonal">Business</div>
+                <span></span>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="tiny man">Writing</div>
-        <div class="tiny"><img src="" /></div>
       </div>
     </main>
   </body>
