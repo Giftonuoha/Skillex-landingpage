@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: linear-gradient(#f9e8e6, #e7f4e5);
+}
+
 
 h2{
     font-family: sans-serif;
@@ -53,25 +57,29 @@ button a{
 
 .container {
   position: relative;
-  height: 100vh;
+  /* height: 100vh; */
+  height: 85vh;
   width: 100%;
 }
 
 .wrapper {
   position: absolute;
-  width: 89%;
-  height: 95vh;
+  width: 95vw;
+  /* width: 89%; */
+  /* height: 95vh; */
+  height: 80vh;
   margin: 20px 80px 50px 50px;
   border-radius: 5px;
   align-items: center;
-  background-image: linear-gradient(#f9e8e6, #e7f4e5);
+ 
 }
 
 .content {
   position: relative;
   background-color: #fff;
   border-radius: 10px;
-  height: 80vh;
+  /* height: 80vh; */
+  height: 75vh;
   width: 80%;
   top: 8%;
   margin: 0 auto;
@@ -216,6 +224,40 @@ span {
 /* main styles ends here*/
 
 
+
+/* Footer styles starts here */
+
+
+.footer-group {
+  /* height: 13vh; */
+  display: flex;
+  gap: 1.5rem;
+ 
+}
+
+.orange {
+  background-color: rgb(248, 163, 6);
+}
+
+.green {
+  background-color: rgb(128, 219, 128);
+}
+
+.ash {
+  background-color: rgb(192, 183, 183);
+}
+
+.blue {
+  background-color: rgb(113, 113, 213);
+}
+
+.colored {
+  border-radius: 8px 8px 0 0;
+  width: 13rem;
+  height: 2.5rem;
+}
+
+/* FOoter styles ends here */
 
 
     
