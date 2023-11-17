@@ -8,6 +8,12 @@
 h2{
     font-family: sans-serif;
     font-size: 2.5rem;
+    padding-left: 125px;
+    padding-top: 20px;
+}
+b{
+  color: gray;
+  font-size: 30px;
 }
 nav{
     display: flex;
@@ -18,11 +24,15 @@ nav{
     font-weight: 600;
     font-family: monospace;
     font-size: 17px;
+    z-index: 2;
+    margin-bottom: 5px;
+    width: 90%;
 }
 .links{
     align-items: start;
     justify-content: center;
     width: 50%;
+    margin-top: 20px;
 }
 .links ul{
     list-style: none;
@@ -36,25 +46,39 @@ nav{
 button{
     border: none; 
     background-color: white;
-    padding: 10px 35px;
     border-radius: 30px;
 }
-button a{
+p a{
     text-decoration: none;
     color: black;
+    line-height: 60px;
     font-size: 15px;
+    padding-right: 60px;
 }
 .primary{
     background: rgb(0, 0, 129);
+    width: 150px;
+    margin-right: 50px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding: 1px 5px;
+    margin-top: 20px;
+}
+
+.primary a{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
 }
 
 /* main styles starts here*/
 
 
 .container {
-  position: relative;
-  height: 100vh;
-  width: 100%;
+ display: flex;
+ flex-direction: column;
+ z-index: 1;
+ width: 100%;
 }
 
 .wrapper {
