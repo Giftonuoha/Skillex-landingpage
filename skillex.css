@@ -39,6 +39,14 @@ header {
   width: 80%;
 }
 
+/* .space {
+  padding-left: 40px;
+} */
+
+.more_space {
+  padding-left: 130px;
+}
+
 ul {
   display: flex;
   align-items: center;
@@ -46,11 +54,11 @@ ul {
   list-style-type: none;
   padding: 0;
   vertical-align: top;
-  /* justify-content: space-between; */
-  /* gap: 25px; */
+  justify-content: space-around;
+  gap: 25px;
 }
 
-.head1>h2 {
+.head1 > h2 {
   font-family: sans-serif;
   font-size: 1.5rem;
   /* padding-left: 105px; */
@@ -63,7 +71,7 @@ b {
 
 nav {
   display: flex;
-  /* padding: 100px; */
+  padding-left: 120px;
   justify-content: space-between;
   align-items: center;
   /* height: 200px; */
@@ -72,17 +80,17 @@ nav {
   font-size: 17px;
   /* z-index: 2; */
   margin-bottom: 5px;
-  width: 80%;
+  width: 100%;
 }
 
 .links {
-  align-items: start;
-  justify-content: center;
-  width: 50%;
+  /* align-items: start; */
+  display: flex;
+  justify-content: space-around;
+
   /* margin-top: 20px; */
   /* font-size: 0.7rem; */
 }
-
 
 .link1 {
   margin-left: 10px;
@@ -90,11 +98,11 @@ nav {
   color: #9e9ea7;
 }
 
-button {
+/* button {
   border: none;
   background-color: white;
   border-radius: 30px;
-}
+} */
 
 p a {
   text-decoration: none;
@@ -114,7 +122,6 @@ p a {
   padding: 5px;
   /* color: white; */
 }
-
 
 .primary a {
   color: white;
@@ -150,7 +157,6 @@ p a {
   font-size: 15px;
 } */
 
-
 /* main styles starts here*/
 
 .container {
@@ -158,7 +164,6 @@ p a {
   /* height: 100vh; */
   height: 75vh;
   width: 100%;
-
 }
 
 .wrapper {
@@ -168,7 +173,6 @@ p a {
   /* margin: 20px 80px 50px 50px; */
   border-radius: 5px;
   align-items: center;
-
 }
 
 .content {
@@ -315,16 +319,14 @@ span {
   background-color: rgb(95, 255, 95);
 }
 
-
 /* Maria worked on this*/
 
 .p5 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   /* margin-top: 100px;
   margin-left: 350px; */
   text-align: center;
-
 }
 
 /* main styles ends here*/
@@ -405,7 +407,6 @@ footer {
   }
 }
 
-
 /* Footer styles starts here */
 
 .footer-group {
@@ -413,16 +414,14 @@ footer {
   gap: 1.8rem;
   align-items: center;
   justify-content: center;
-
 }
-
 
 .orange {
   background-color: rgb(241, 173, 114);
 }
 
 .green {
-  background-color: rgb(163, 221, 147)
+  background-color: rgb(163, 221, 147);
 }
 
 .ash {
@@ -432,7 +431,6 @@ footer {
 .blue {
   background-color: rgb(141, 157, 205);
 }
-
 
 .colored {
   border-radius: 9px 9px 0 0;
